@@ -12,17 +12,6 @@
             "EnvironmentType": "DEV",
             "Databases": [
               {
-                "DatabaseId": "5fea129c-fbad-41b0-9108-c0e35192fe4e",
-                "DatabaseAliasName": "HLKBNK_DB1",
-                "DatabaseConnectionDetails": null,
-                "RepositoryDetails": {
-                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
-                  "RemoteRepositoryURL": "https://github.com/berkeoz/dbm_sc_hlkbnk_sh.git",
-                  "RemoteBranchName": "main",
-                  "LocalBranchName": "main"
-                }
-              },
-              {
                 "DatabaseId": "e12e84b8-55ee-43c8-8036-a3191682c580",
                 "DatabaseAliasName": "HLKBNK_DB1",
                 "DatabaseConnectionDetails": null,
