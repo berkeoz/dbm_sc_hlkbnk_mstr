@@ -1,5 +1,59 @@
 {
-  "Projects": [],
+  "Projects": [
+    {
+      "GlobalData": {
+        "ProjectId": "19bda673-c7f1-48eb-ab97-292ea4db0104",
+        "ProjectName": "HLKBNK_PRJ1",
+        "DBTypeName": "SQL Server",
+        "Environments": [
+          {
+            "EnvironmentId": "39c0638a-9c09-4597-a05c-cb2378241364",
+            "EnvironmentName": "Dev_Env_1",
+            "EnvironmentType": "DEV",
+            "Databases": [
+              {
+                "DatabaseId": "5fea129c-fbad-41b0-9108-c0e35192fe4e",
+                "DatabaseAliasName": "HLKBNK_DB1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/berkeoz/dbm_sc_hlkbnk_sh.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
+              }
+            ]
+          }
+        ],
+        "SourceControlPathType": 0,
+        "Configuration": {
+          "BuildMigrationScriptAutomatically": true,
+          "DBConfiguration": {
+            "MetadataConfiguration": {},
+            "ValidationConfiguration": {},
+            "BuildConfiguration": {}
+          },
+          "NumberOfRevisionsInViewHistory": 10,
+          "NumberOfTagsInBuildOptions": 10,
+          "NumberOfDaysBuildByTaskIsRelevant": 30,
+          "PreventCommitObjectWithConflict": false,
+          "SaveObjectScopeAtProjectLevel": null,
+          "UseCache": null,
+          "IgnoreTextualChangesBasedOnMetadata": true
+        },
+        "ProjectArchitecture": 1,
+        "LocalDirectory": ""
+      },
+      "UserData": [
+        {
+          "UserName": "berkeoz",
+          "DatabasesData": []
+        }
+      ],
+      "DatabasesStaticDataObjects": null,
+      "DatabasesScopeObjects": null
+    }
+  ],
   "GlobalConfigurations": null,
   "RepositoryConfiguration": null,
   "GeneralConfigurations": {
