@@ -32,6 +32,17 @@
                   "RemoteBranchName": "main",
                   "LocalBranchName": "main"
                 }
+              },
+              {
+                "DatabaseId": "e233000c-9cb6-4d57-8d19-082859a97e86",
+                "DatabaseAliasName": "HLKBNK_DB1",
+                "DatabaseConnectionDetails": null,
+                "RepositoryDetails": {
+                  "$type": "DOP.SourceControl.ExternalSourceControl.Git.Models.GitRepositoryDetails, DOP.SourceControl.ExternalSourceControl.Git",
+                  "RemoteRepositoryURL": "https://github.com/berkeoz/dbm_sc_hlkbnk_sh.git",
+                  "RemoteBranchName": "main",
+                  "LocalBranchName": "main"
+                }
               }
             ]
           }
@@ -58,7 +69,42 @@
       "UserData": [
         {
           "UserName": "berkeoz",
-          "DatabasesData": []
+          "DatabasesData": [
+            {
+              "DatabaseId": "e233000c-9cb6-4d57-8d19-082859a97e86",
+              "DatabaseAliasName": "HLKBNK_DB1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": null,
+              "RepositoryCredentials": {
+                "UserName": "berkeoz",
+                "Password": "OwpWlkWmltynchlAGzUVJhagkl4gbzNshplobMMz7PjSNDNYC+pPI+/W6mO5R+Lj"
+              }
+            }
+          ]
+        },
+        {
+          "UserName": "#ALL",
+          "DatabasesData": [
+            {
+              "DatabaseId": "e233000c-9cb6-4d57-8d19-082859a97e86",
+              "DatabaseAliasName": "HLKBNK_DB1",
+              "DatabaseConnectionDetails": null,
+              "BranchesDatabaseConnectionDetails": [
+                {
+                  "BranchName": "main",
+                  "DatabaseConnectionDetails": {
+                    "DBTypeName": "SQL Server",
+                    "host": "WIN-U036DAHSO11\\SQLSERVER",
+                    "authType": "SqlAuthentication",
+                    "userName": "sa",
+                    "dbName": "HLKBNK_DEMO",
+                    "Password": "do1NBD0OcmAl1jAcpH7iWg=="
+                  }
+                }
+              ],
+              "RepositoryCredentials": null
+            }
+          ]
         }
       ],
       "DatabasesStaticDataObjects": null,
