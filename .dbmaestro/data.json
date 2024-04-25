@@ -85,8 +85,28 @@
           ]
         }
       ],
-      "DatabasesStaticDataObjects": null,
-      "DatabasesScopeObjects": null
+      "DatabasesStaticDataObjects": [
+        {
+          "StaticDataObjects": [
+            {
+              "UniqueIndex": "PK_Table_1",
+              "schema": "dbo",
+              "name": "Table_1",
+              "type": "Table"
+            }
+          ],
+          "DatabaseId": "81a4184d-67d2-47bc-b59b-bad3d6d9c4b3",
+          "DatabaseAliasName": "HLKBNK_DB1"
+        }
+      ],
+      "DatabasesScopeObjects": [
+        {
+          "ExcludeObjects": [],
+          "IncludeObjects": [],
+          "DatabaseId": "81a4184d-67d2-47bc-b59b-bad3d6d9c4b3",
+          "DatabaseAliasName": "HLKBNK_DB1"
+        }
+      ]
     }
   ],
   "GlobalConfigurations": null,
